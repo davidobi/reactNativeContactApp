@@ -8,21 +8,13 @@
 import 'react-native-gesture-handler';
 import React from 'react';
 import AppNavContainer from './src/navigation';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+
 
 const App = () => {
 
   return (
     <AppNavContainer>
-
+      
     </AppNavContainer> 
   );
 };

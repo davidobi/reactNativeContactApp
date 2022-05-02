@@ -37,10 +37,10 @@ const Settings = () => {
 const AppNavContainer = () => {
     const HomeStack = createStackNavigator();
   return (
-    <HomeStack.Navigator>
+    <HomeStack.Navigator initialRouteName='Contacts'>
         <HomeStack.Screen name="Contacts" component={Contacts} />
-        <HomeStack.Screen name="ContactDetails" component={ContactDetails} /> 
-        <HomeStack.Screen name="CreateContact" component={CreateContact} />  
+        <HomeStack.Screen name="Contact Details" component={ContactDetails} /> 
+        <HomeStack.Screen name="Create Contact" component={CreateContact} />  
         <HomeStack.Screen name="Settings" component={Settings} />  
     </HomeStack.Navigator>
   )
